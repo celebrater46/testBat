@@ -11,19 +11,21 @@ for /L %%i in (%vstart%,%vincrement%,%vend%) do (
     echo %%i/%vend%sec...
 )
 
-set msg=ã“ã‚“ã«ã¡ã¯
+set msg=‚±‚ñ‚É‚¿‚Í
 set times=3
-set ret=
 
+set ret=
 for /L %%i in (1,1,%times%) do (
     set ret=%ret%%msg%
 )
-@REM ã“ã‚“ã«ã¡ã¯
+@REM ‚±‚ñ‚É‚¿‚Í
 echo %ret%
 
-set ret2=
+setlocal enabledelayedexpansion
+
+set retb=
 for /L %%i in (1,1,%times%) do (
-    set ret2=!ret2!%msg%
+    set retb=!retb!%msg%
 )
-@REM ã“ã‚“ã«ã¡ã¯ã“ã‚“ã«ã¡ã¯ã“ã‚“ã«ã¡ã¯
-echo %ret2%
+@REM ‚±‚ñ‚É‚¿‚Í
+echo !retb!
