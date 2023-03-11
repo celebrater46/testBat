@@ -1,0 +1,18 @@
+230311
+
+" < > % & | ^
+they are the special charactor.
+only % is as the special charactor even in "".
+
+The hat at out of the double quotes nullifies only one character behind it.
+
+
+### BASIC GRAMMERS AND FUNCTIONS
+https://qiita.com/sta/items/8cab80fe74b8dcfa5336
+
+
+### COMMANDS AND OUTPUTS
+J:\Dropbox\PC5_cloud\pg\cmd\testBat>echo 03/11/2023 Sat <= COMMAND
+03/11/2023 Sat <= OUTPUT
+J:\Dropbox\PC5_cloud\pg\cmd\testBat>echo 11:18:35.89 <= COMMAND
+11:18:35.89 <= OUTPUT
