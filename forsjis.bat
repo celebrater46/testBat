@@ -27,5 +27,6 @@ set retb=
 for /L %%i in (1,1,%times%) do (
     set retb=!retb!%msg%
 )
-@REM ‚±‚ñ‚É‚¿‚Í
+@REM ‚±‚ñ‚É‚¿‚Í‚±‚ñ‚É‚¿‚Í‚±‚ñ‚É‚¿‚Í
 echo !retb!
+
